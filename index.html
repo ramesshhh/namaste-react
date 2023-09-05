@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+</head>
+<body>
+    <div id="root">
+        <!-- <h1>Hello World</h1> -->
+    </div>
+
+    <!-- <script>
+        // To create H1 tag
+        const heading = document.createElement("h1");
+        //  TO create element
+        heading.innerHTML = "Hello World from JS";
+
+        // To trigger ID
+        const root = document.getElementById("root");
+        // appendChild will make {put heading in id="root" as a Child}
+        root.appendChild(heading);
+    </script> -->
+
+    <!-- Using React -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- <script>
+        // React.createElement is a core react element -> will take 3 parameters ("h1",{function},)React.createElement() takes three arguments. They are:
+
+// type: the type of the HTML element (h1,p,button).
+// props: properties of the object({style:{size:10px}} or Eventhandlers, classNames,etc).
+// children: anything that need to be displayed on the screen.
+
+        const heading = React.createElement("h1",{},"Hello World using React");
+
+        // Everything that is render will render inside the root
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+
+        root.render(heading);
+    </script> -->
+    <script src="./app.js"></script>
+</body>
+</html>
